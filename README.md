@@ -12,7 +12,25 @@ This is a project predict face landmarks (68 points).
 
 ## Usage
 
-- CPP Demo : ./face_lardmark 
+- CPP Demo : 
+  Build dlib 下载源码并解压
+  
+  mkdir build
+  
+  cd build
+  
+  cmake ..
+  
+  make release=1
+  
+  添加Dlib文件夹到系统目录，
+  修改CMakeList.txt中dlib的lib路径为自己的
+  
+  Build facelandmark
+  cmake ..
+  make 
+  ./face_landmark
+  
 - Python Demo: python face_landmark.py (created by [jiangwqcooler](https://github.com/jiangwqcooler))
 
 ## notice
