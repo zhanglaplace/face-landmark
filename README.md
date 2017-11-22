@@ -27,8 +27,11 @@ This is a project predict face landmarks (68 points).
   修改CMakeList.txt中dlib的lib路径为自己的
   
   Build facelandmark
+  
   cmake ..
+  
   make 
+  
   ./face_landmark
   
 - Python Demo: python face_landmark.py (created by [jiangwqcooler](https://github.com/jiangwqcooler))
